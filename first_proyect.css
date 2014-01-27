@@ -1,0 +1,57 @@
+a
+{
+	color: #22bce0;
+
+}
+
+body
+{
+	background: #EEEEEE;
+	font-family: arial;
+	font-size: 16px;
+}
+header
+{
+	background: #0093d5;
+	color: white;
+	overflow: hidden;
+	padding:0.5em;
+	position:relative;
+}
+header #logo img
+{
+	border-radius:25%;
+	border-right:1px solid white;
+	padding-right: 0.5em;
+	margin-right: 0.5em;
+	width :85px;
+}
+header figure
+{
+	float: left;
+}
+header h1
+{
+	font-size: 1.2em;
+	font-weight: normal;
+	margin:0 100px 0 0;
+}
+header #avatar
+{
+	margin:0.5em 0.5em 0 0;
+	position:absolute;
+	top:0;
+	right:0;
+}
+header #avatar img
+{
+	border-radius: 50%;
+	width :85px;
+}
+nav
+{
+	background:#4055ff;
+}
+
+
+
