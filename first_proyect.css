@@ -1,3 +1,15 @@
+/*@font-face {
+    font-family: 'open_sansregular';
+    src: url('fuentes/OpenSans-Regular-webfont.eot');
+    src: url('fuentes/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fuentes/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fuentes/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fuentes/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*/
 a
 {
 	color: #22bce0;
@@ -7,7 +19,9 @@ a
 body
 {
 	background: #EEEEEE;
-	font-family: arial;
+	/*font-family: arial;*/
+	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'open_sansregular';*/
 	font-size: 16px;
 }
 footer
@@ -162,7 +176,7 @@ nav ul #publicar_nav a
 #contenido .item .titulo_item a
 {
 	color: #444;
-	text-decoration:normal;
+	text-decoration:none;
 }
 #contenido .item .votacion
 {
