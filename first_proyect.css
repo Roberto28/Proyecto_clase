@@ -10,12 +10,53 @@
 
 }
 */
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('icons/icomoon.eot?-jcktwc');
+	src:url('icons/icomoon.eot?#iefix-jcktwc') format('embedded-opentype'),
+		url('icons/icomoon.woff?-jcktwc') format('woff'),
+		url('icons/icomoon.ttf?-jcktwc') format('truetype'),
+		url('icons/icomoon.svg?-jcktwc#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-down:before {
+	content: "\e600";
+}
+.icon-up:before {
+	content: "\e601";
+}
+.icon-pencil:before {
+	content: "\e602";
+	margin-right: 0.5em;
+}
+.icon-star:before {
+	content: "\e603";
+	position: relative;
+	top: .1em;
+	margin-right:0.5em;
+}
 a
 {
 	color: #22bce0;
 
 }
-
 body
 {
 	background: #EEEEEE;
@@ -94,7 +135,7 @@ nav ul
 {
 	list-style: none;
 	margin: 0;
-	padding: 0;
+	padding: 0 6em 0 0.5em;
 }
 nav ul li
 {
@@ -135,6 +176,11 @@ nav ul #publicar_nav a
 	margin-bottom:3em;
 	position:relative;
 }
+#contenido .item a
+{
+	text-decoration:none;
+}
+
 #contenido .item .autor_item
 {
 	color:#AAA;
@@ -194,9 +240,18 @@ nav ul #publicar_nav a
 {
 	float:right;
 }
-
-
-
+#contenido .item .votacion .down
+{
+	color:#CF0D2C;
+}
+#contenido .item .votacion .guardar_item
+{
+	color: #F5BC08;
+}
+#contenido .item .votacion .up
+{
+	color:#04C204;
+}
 
 
 
