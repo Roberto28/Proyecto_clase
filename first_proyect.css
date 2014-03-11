@@ -254,6 +254,22 @@ nav ul #publicar_nav a
 }
 
 
+@media screen and (min-width: 800px){
+	body{
+		background: red;
+	}
+	#contenido
+	{
+		overflow: hidden;
+	}
+	#contenido .item
+	{
+		width: 49%;
+		float: left;
+		margin-right:1%;
+	}
+}
+
 
 
 
